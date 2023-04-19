@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 import About from "./pages/About";
+import Housing from "./pages/Housing";
 import housingdata from "./datas/housingdata.json"
 
 function HousingVerification() {
@@ -12,6 +13,7 @@ function HousingVerification() {
   if (!page) {
     return <Error />;
   }
+  return <Housing element={<Housing/>} />;
 }
 
 function App() {

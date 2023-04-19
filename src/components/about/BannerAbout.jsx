@@ -5,7 +5,7 @@ import bannerabout from "../../assets/bannerabout.png";
 function BannerAbout() {
     return (
       <section className="banner">
-        <img src={bannerabout} className="banner__img" alt="baniere a propos" />
+        <img src={bannerabout} className="banner__img" alt="banniere à propos" />
       </section>
     )
 }
